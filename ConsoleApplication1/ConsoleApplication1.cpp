@@ -16,7 +16,7 @@ int main()
 	cin >> num;
 	fakhri = 0;
 	muhamad = n - 1;
-	mid = (muhamad + fakhri) / 2;
+	mid = (muhamad + fakhri) / 2;u
 	while (fakhri <= muhamad)
 	{
 		if (hilal[mid] < num)
@@ -26,18 +26,4 @@ int main()
 		}
 		else if (hilal[mid] == num)
 		{
-			cout << num << " found " << mid + 1 << "\n";
-			break;
-		}
-		else {
-			muhamad = mid + 1;
-		}
-		mid = (muhamad + fakhri) / 2;
-	}
-	if (fakhri > muhamad)
-	{
-		cout << num << " Not Found ";
-	}
-
-	return;
-}
+			
